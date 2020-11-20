@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif, 'ZillaSlab';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'ZillaSlab';
+  src: url("./fonts/ZillaSlab-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'ZS_bold';
+  src: url("./fonts/ZillaSlab-Bold.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'ZS_semibold';
+  src: url("./fonts/ZillaSlab-SemiBold.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'ZS_medium';
+  src: url("./fonts/ZillaSlab-Medium.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'ZS_light';
+  src: url("./fonts/ZillaSlab-Light.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'ZS_lightItalic';
+  src: url("./fonts/ZillaSlab-LightItalic.ttf") format('truetype');
+}

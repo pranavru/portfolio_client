@@ -1,0 +1,253 @@
+{
+  "user": {
+    "salutation": {
+      "visible": false,
+      "title": "Mr."
+    },
+    "first_name": "Pranav",
+    "last_name": "Ruparelia",
+    "preferred_name": "",
+    "dateOfBirth": {
+      "year": 1996,
+      "month": "May",
+      "day": 29
+    },
+    "address": {
+      "isVisible": true,
+      "mailingAddress": {
+        "flatNo": 6,
+        "street": "Lineau Place",
+        "apartment": 1,
+        "city": "Jersey City",
+        "state": "New Jersey (NJ)",
+        "country": "United States (US)"
+      },
+      "permanentAddress": {
+        "flatNo": 6,
+        "street": "Lineau Place",
+        "apartment": 1,
+        "city": "Jersey City",
+        "state": "New Jersey (NJ)",
+        "country": "United States (US)"
+      }
+    },
+    "contactNumber": {
+      "isVisible": true,
+      "home": {
+        "preferred": true,
+        "details": 2015548210,
+        "extension": "+1"
+      },
+      "work": {
+        "preferred": false,
+        "details": "",
+        "extension": ""
+      }
+    },
+    "email": {
+      "isVisible": true,
+      "home": {
+        "preferred": true,
+        "details": "plr.wrk12@gmail.com"
+      },
+      "work": {
+        "preferred": false,
+        "details": "pranavruparelia9@gmail.com"
+      }
+    },
+    "links": {
+      "linkedin": {
+        "visible": false,
+        "username": "/pranavru/"
+      },
+      "github": {
+        "visible": false,
+        "username": "/pranavru/"
+      },
+      "stackoverflow": {
+        "visible": false,
+        "username": ""
+      },
+      "facebook": {
+        "visible": false,
+        "username": ""
+      },
+      "twitter": {
+        "visible": false,
+        "username": ""
+      }
+    },
+    "education": [
+      {
+        "name": "New Jersey Institute of Technology",
+        "detailsVisible": true,
+        "details": [
+          {
+            "degree": "Master's Degree (MSc)",
+            "major": "Computer Science",
+            "minor": "",
+            "GPA": {
+              "isVisible": true,
+              "scale": 4.0,
+              "detail": 3.69
+            },
+            "startDate": {
+              "year": 2019,
+              "month": "Sept",
+              "day": 4
+            },
+            "presentlyPursuing": true,
+            "endDate": {
+              "year": 2020,
+              "month": "Dec",
+              "day": 15
+            }
+          }
+        ]
+      },
+      {
+        "name": "University of Mumbai",
+        "detailsVisible": true,
+        "details": [
+          {
+            "degree": "Bachelor's Degree (B.Tech)",
+            "major": "Information Technology",
+            "minor": "",
+            "GPA": {
+              "isVisible": false,
+              "scale": 10,
+              "detail": 7.15
+            },
+            "startDate": {
+              "year": 2014,
+              "month": "Aug",
+              "day": 1
+            },
+            "presentlyPursuing": false,
+            "endDate": {
+              "year": 2018,
+              "month": "Jul",
+              "day": 1
+            }
+          }
+        ]
+      }
+    ],
+    "work_experience": [
+      {
+        "company_name": "New Jersey Institute of Technology",
+        "detailsVisible": true,
+        "details": {
+          "position": "Software Developer",
+          "location": {
+            "street": "",
+            "city": "Newark",
+            "state": "New Jersey (NJ)",
+            "country": "United States (US)"
+          },
+          "startDate": {
+            "year": 2020,
+            "month": "May",
+            "day": 22
+          },
+          "presentlyWorking": true,
+          "endDate": {
+            "year": 2020,
+            "month": "Dec",
+            "day": 15
+          },
+          "description": [
+            "Developed cross-browser “Robin” web app afresh using React JS, Google Maps API, Geolocation API, and React Animation.",
+            "The app records events and performs face and speech recognition. These details of the events are made available using the Maps API v3 Info window.",
+            "Designed and developed features like Filter, Feedback, and Map modules. Created SVGs for location markers, allowing users to pan to the events that are the most recent events or closest to the user’s location.",
+            "Achieved improved user experience in filter-based search by implementing features like slider filtering and autocomplete API."
+          ],
+          "awards": {
+            "isVisible": false,
+            "recognition": [
+              {
+                "title": "JEE JS FS Program",
+                "recognitionType": "Certificate of Appreciaition",
+                "dateReceived": {
+                  "year": 2020,
+                  "month": "Dec",
+                  "day": 15
+                },
+                "description": "",
+                "link": ""
+              }
+            ]
+          }
+        }
+      },
+      {
+        "company_name": "Unbox Social",
+        "detailsVisible": true,
+        "details": {
+          "position": "React Native Developer",
+          "location": {
+            "street": "",
+            "city": "Mumbai",
+            "state": "Maharashtra (MH)",
+            "country": "India (IN)"
+          },
+          "startDate": {
+            "year": 2019,
+            "month": "Apr",
+            "day": 26
+          },
+          "presentlyWorking": false,
+          "endDate": {
+            "year": 2019,
+            "month": "Jul",
+            "day": 16
+          },
+          "description": [
+            "Responsible for the development and maintenance of iOS & Android apps using React-native. The app helps brands collaborate with influencers, analyze their reach, and keep track of their appointments with invoices.",
+            "Developed a significant version of the app with features like Onboarding Screens, Feed, Campaigns, and Invoice modules ",
+            "Implemented a single source of truth for the app’s state using mobx, decreasing the app’s load-time by 2-4 seconds. ",
+            "Integrated and developed UI's for Accounts, Modal Views, login, Analytics page"
+          ],
+          "awards": {
+            "isVisible": false,
+            "recognition": []
+          }
+        }
+      },
+      {
+        "company_name": "Capgemini",
+        "detailsVisible": true,
+        "details": {
+          "position": "Software Developer/Analyst",
+          "location": {
+            "street": "",
+            "city": "Navi Mumbai",
+            "state": "Maharashtra",
+            "country": "India (IN)"
+          },
+          "startDate": {
+            "year": 2018,
+            "month": "Sept",
+            "day": 19
+          },
+          "presentlyWorking": false,
+          "endDate": {
+            "year": 2019,
+            "month": "Apr",
+            "day": 26
+          },
+          "description": [
+            "Responsible for completing MEAN-Stack App - LinkedIn clone. It assisted me with an opportunity to lead a team of 10 developers.",
+            "Developed dynamic workflows, validation rules/approval process, & auto-response emails using Salesforce Apex.",
+            "Implemented RBAC, public groups, and role hierarchies. "
+          ],
+          "awards": {
+            "isVisible": false,
+            "recognition": []
+          }
+        }
+      }
+    ],
+    "projects": []
+  }
+}

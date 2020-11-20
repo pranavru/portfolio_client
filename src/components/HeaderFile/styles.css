@@ -1,0 +1,13 @@
+.portfolioHeader {
+  padding: 10px 0px;
+  background-color: #116466;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #FFCB9A;
+  position: sticky;
+  top: 0px;
+  elevation: 2;
+  z-index: 100;
+}
