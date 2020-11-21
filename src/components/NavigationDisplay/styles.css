@@ -1,0 +1,19 @@
+.navButtons {
+  margin-right: 1%;
+  z-index: 101;
+  border: 1px solid #116466;
+  border-radius: 36px;
+  padding: 0.4% 0.5%;
+  color: #2C3531;
+  background-color: '#D9B08C';
+  font: 16px ZS_medium;
+}
+
+.navButtons:hover {
+  color: #FFCB9A;
+  background-color: #116466;
+}
+
+.navButtons:focus{
+    outline: none;
+}

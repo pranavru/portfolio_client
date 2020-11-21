@@ -56,13 +56,13 @@
       }
     },
     "links": {
-      "linkedin": {
+      "LinkedIn": {
         "visible": false,
-        "username": "/pranavru/"
+        "username": "https://www.linkedin.com/in/pranavru/"
       },
-      "github": {
+      "GitHub": {
         "visible": false,
-        "username": "/pranavru/"
+        "username": "https://www.github.com/pranavru/"
       },
       "stackoverflow": {
         "visible": false,

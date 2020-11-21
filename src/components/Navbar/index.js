@@ -1,16 +1,17 @@
 import React from "react";
 import PropTypes from "prop-types";
-import AppBar from "@material-ui/core/AppBar";
 import useScrollTrigger from "@material-ui/core/useScrollTrigger";
 import Box from "@material-ui/core/Box";
 import Slide from "@material-ui/core/Slide";
-import Fab from "@material-ui/core/Fab";
-import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
 import Zoom from "@material-ui/core/Zoom";
 import { makeStyles } from "@material-ui/core/styles";
 import PortfolioBody from "../PortfolioBody";
 import ProtfolioHeader from "../PortfolioHeader";
-import { Button, Toolbar } from "@material-ui/core";
+import { Toolbar } from "@material-ui/core";
+import { NavigationDisplay } from "../NavigationDisplay";
+// import { KeyBoardUpArrow } from "../KeyBoardArrowButton";
+import Fab from "@material-ui/core/Fab";
+import { KeyboardArrowDownRounded, KeyboardArrowUpRounded } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -20,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-function HideOnScroll(props) {
+export function HideOnScroll(props) {
   const { children, window } = props;
   const trigger = useScrollTrigger({
     target: window ? window() : undefined, disableHysteresis: true,
@@ -59,10 +60,10 @@ function ScrollTop(props) {
 
   return (
     <Zoom in={trigger}>
-      <div onClick={handleClick} role="presentation" className={classes.root}>
+      <div onClick={handleClick} role="presentation" className={classes.root} style={{ outline: "none" }} >
         {children}
       </div>
-    </Zoom>
+    </Zoom >
   );
 }
 
@@ -75,24 +76,24 @@ export default function Navbar(props) {
   return (
     <React.Fragment>
       <ProtfolioHeader />
-      <HideOnScroll {...props}>
-        <AppBar color="inherit" style={{ marginTop: '80px', zIndex: 10, border: '0px' }}  >
-          <div className="row col-md-12 col-12" style={{ margin: '0.3%', marginLeft: '1%' }}>
-            <Button variant="outlined" style={{ borderRadius: '36px', marginRight: '1%', zIndex: 101 }}>Home</Button>
-            <Button variant="outlined" style={{ borderRadius: '36px', marginRight: '1%' }}>Work Experience</Button>
-            <Button variant="outlined" style={{ borderRadius: '36px', marginRight: '1%' }}>Projects</Button>
-          </div>
-        </AppBar>
-      </HideOnScroll>
+      <NavigationDisplay props />
       <Toolbar id="back-to-top-anchor" />
-      <Box my={-3}>
+      <Box my={-6}>
         <PortfolioBody />
       </Box>
+      <ProtfolioHeader />
       <ScrollTop {...props}>
-        <Fab color="inherit" size="small" aria-label="scroll back to top">
-          <KeyboardArrowUpIcon />
-        </Fab>
+        <KeyBoardUpArrow upArrow={true} />
       </ScrollTop>
     </React.Fragment>
   );
+}
+
+const KeyBoardUpArrow = (props) => {
+  return <Fab color="inherit" size="small" aria-label="scroll back to top" className="keyBoardArrowButton">
+    {props.upArrow === true ?
+      <KeyboardArrowUpRounded color="#FFCB9A" htmlColor="#116466" /> :
+      <KeyboardArrowDownRounded color="#FFCB9A" htmlColor="#116466" />
+    }
+  </Fab>;
 }

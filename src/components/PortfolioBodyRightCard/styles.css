@@ -1,0 +1,14 @@
+.linksDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 2.5%;
+}
+
+.linksButton {
+}
+
+.linksButton:focus {
+  outline: none;
+}

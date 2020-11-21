@@ -33,6 +33,11 @@ code {
 }
 
 @font-face {
+  font-family: 'ZS_mediumItalic';
+  src: url("./fonts/ZillaSlab-MediumItalic.ttf") format('truetype');
+}
+
+@font-face {
   font-family: 'ZS_light';
   src: url("./fonts/ZillaSlab-Light.ttf") format('truetype');
 }
