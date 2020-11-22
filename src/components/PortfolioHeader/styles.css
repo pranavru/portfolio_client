@@ -1,7 +1,7 @@
 .firstName {
-  font: 36px ZS_semibold;
+  font: 48px ZS_bold;
 }
 
 .lastName {
-  font: 36px ZS_light;
+  font: 48px ZS_medium;
 }

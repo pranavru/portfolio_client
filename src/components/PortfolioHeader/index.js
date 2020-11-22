@@ -8,7 +8,7 @@ const ProtfolioHeader = () => {
     <span className="firstName">{userDetails.user.first_name} </span>
     <span className="lastName">{userDetails.user.last_name}</span>
   </p>;
-  return <HeaderFile displayText={appHeader} bgColor="#116466" />
+  return <HeaderFile displayText={appHeader} />
 };
 
 export default ProtfolioHeader;
