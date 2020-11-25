@@ -80,7 +80,7 @@ export default function Navbar(props) {
       <NavigationDisplay props />
       <Toolbar id="back-to-top-anchor" />
       <Box my={-2}>
-        <ProtfolioHeader />
+        <ProtfolioHeader color='#2C3531' />
         <PortfolioBody />
       </Box>
       <ScrollTop {...props}>

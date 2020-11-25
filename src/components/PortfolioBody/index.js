@@ -6,6 +6,13 @@ import './styles.css';
 
 const PortfolioBody = () => {
   const height = window.innerHeight >= 785 ? '86vh' : '79vh';
+  // window.addEventListener('scroll', (event) => {
+  //   if (window.scrollY > 450) {
+  //     window.scrollTo(850);
+  //   } else {
+  //     window.scrollTo(650);
+  //   }
+  // })
   return (
     <React.Fragment>
       <div className="col-md-12 col-12 row"  >
