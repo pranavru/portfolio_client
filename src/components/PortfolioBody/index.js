@@ -1,8 +1,9 @@
 import React from 'react';
 import { ImportantLinks } from '../ImportantLinks';
-import { PortfolioBodyLeftCard } from '../PortfolioBodyLeftCard';
+import { PortfolioBodyLeftCard } from '../WorkExperience';
 import { PortfolioBodyRightCard } from '../PortfolioBodyRightCard';
 import './styles.css';
+import { Macbook } from '../Macbook';
 
 const PortfolioBody = () => {
   const height = window.innerHeight >= 785 ? '86vh' : '79vh';
@@ -15,6 +16,7 @@ const PortfolioBody = () => {
   // })
   return (
     <React.Fragment>
+
       <div className="col-md-12 col-12 row"  >
         <div className="col-md-6">
           <ImportantLinks />
@@ -22,7 +24,6 @@ const PortfolioBody = () => {
         <div className="profileQuote col-md-6" style={{ height: height }}>
           <img src="./macbook.png" alt="macbook" width="100%" height="70%" className="macbookImgDiv" />
           <div className="whiteBackground">
-
           </div>
         </div>
       </div>
