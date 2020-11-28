@@ -8,15 +8,18 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import EmailRoundedIcon from '@material-ui/icons/EmailRounded';
+import CustomizedTimeline from '../PortfolioBody/CustomizedTimeline';
 
 export const PortfolioBodyRightCard = () => {
   console.log(user);
   return <div className="col-md-4 col-12">
     <Card>
-      <PortfolioBodyCardHeader />
+      <PortfolioBodyCardHeader header="Projects Timeline" style={{ fontSize: '22px' }} />
     </Card>
     <Card style={{ marginTop: '5px', border: "1px solid #D9B08C" }} variant="outlined">
-      <div className="linksDiv">
+
+      <CustomizedTimeline />
+      {/* <div className="linksDiv">
           <Fab color="inherit" size="medium" aria-label="scroll back to top" className="linksButton" >
             <LinkedInIcon color="#2C3531" onClick={() => alert("Yo")} />
           </Fab>
@@ -32,11 +35,11 @@ export const PortfolioBodyRightCard = () => {
           <Fab color="inherit" size="medium" aria-label="scroll back to top" className="linksButton">
             <TwitterIcon color="#2C3531" onClick={() => alert("Yo")} />
           </Fab>
-      </div>
+      </div> */}
     </Card>
   </div>
 }
 
 /**
- * 
+ *
  */

@@ -10,7 +10,7 @@ const ProtfolioHeader = (props) => {
   </p>;
   const [color, setColor] = React.useState("");
   window.addEventListener('scroll', (event) => {
-    if (window.scrollY > 20) {
+    if (window.scrollY > 35) {
       setColor('#ffffff');
     } else {
       setColor('');

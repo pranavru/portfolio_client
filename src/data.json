@@ -55,26 +55,31 @@
         "details": "pranavruparelia9@gmail.com"
       }
     },
+    "professionalExperienceSummary": "Experienced in creating pixel-perfect, interactive UI/UX for Single-Page apps using React.js",
     "links": {
       "LinkedIn": {
-        "visible": false,
-        "username": "https://www.linkedin.com/in/pranavru/"
+        "visible": true,
+        "link": "https://www.linkedin.com/in/pranavru/"
       },
       "GitHub": {
-        "visible": false,
-        "username": "https://www.github.com/pranavru/"
+        "visible": true,
+        "link": "https://www.github.com/pranavru/"
       },
       "stackoverflow": {
         "visible": false,
-        "username": ""
+        "link": ""
       },
-      "facebook": {
+      "medium": {
         "visible": false,
-        "username": ""
+        "link": ""
       },
       "twitter": {
         "visible": false,
-        "username": ""
+        "link": ""
+      },
+      "resume": {
+        "visible": true,
+        "link": "https://drive.google.com/file/d/1HJaUt4w8O-HKOaFR1gyIKSlals_HKbUX/view?usp=sharing"
       }
     },
     "education": [
