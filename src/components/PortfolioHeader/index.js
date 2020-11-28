@@ -19,7 +19,7 @@ const ProtfolioHeader = (props) => {
   const stylesHeader = {
     backgroundColor: color,
     color: props.color,
-    borderBottom: color === "" ? "0px" : "0.5px solid #D9B08C"
+    borderBottom: color === "" ? "0px" : "0.5px solid #D9B08C",
   }
   return <HeaderFile displayText={appHeader} stylesHeader={stylesHeader} />
 };
