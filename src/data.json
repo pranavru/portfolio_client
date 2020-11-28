@@ -289,6 +289,96 @@
         ]
       }
     ],
-    "projects": []
+    "projects": [],
+    "timeline": [
+      {
+        "name": "The SBG Store",
+        "industry_domain": "E-commerce",
+        "startDate": { "year": 17, "month": "Aug" },
+        "endDate": { "year": 17, "month": "Dec" },
+        "description": "LAMP Stack",
+        "link": ""
+      },
+      {
+        "name": "ITSATIS",
+        "industry_domain": "Public",
+        "startDate": { "year": 17, "month": "Aug" },
+        "endDate": { "year": 18, "month": "Jun" },
+        "description": "IoT Stack",
+        "link": ""
+      },
+      {
+        "name": "LinkedIn Clone",
+        "industry_domain": "Social Media",
+        "startDate": { "year": 18, "month": "Dec" },
+        "endDate": { "year": 18, "month": "Dec" },
+        "description": "MEAN Stack",
+        "link": ""
+      },
+      {
+        "name": "Restaurant App (Admin)",
+        "industry_domain": "E-commerce",
+        "startDate": { "year": 18, "month": "Sept" },
+        "endDate": { "year": 19, "month": "Jan" },
+        "description": "MEAN Stack",
+        "link": ""
+      },
+      {
+        "name": "Unbox Influence",
+        "industry_domain": "Social Media Marketing",
+        "startDate": { "year": 19, "month": "Apr" },
+        "endDate": { "year": 19, "month": "Jul" },
+        "description": "Frontend - React Native",
+        "link": ""
+      },
+      {
+        "name": "ITSATIS",
+        "industry_domain": "Public",
+        "startDate": { "year": 19, "month": "Oct" },
+        "endDate": { "year": 19, "month": "Nov" },
+        "description": "Image Processing",
+        "link": ""
+      },
+      {
+        "name": "ITSATIS",
+        "industry_domain": "Public",
+        "startDate": { "year": 20, "month": "Mar" },
+        "endDate": { "year": 20, "month": "Apr" },
+        "description": "AWS Stack",
+        "link": ""
+      },
+      {
+        "name": "Wine Quality Tester",
+        "industry_domain": "Other",
+        "startDate": { "year": 20, "month": "Mar" },
+        "endDate": { "year": 20, "month": "Apr" },
+        "description": "AWS Stack",
+        "link": ""
+      },
+      {
+        "name": "conFusion Restaurant multi-platform App",
+        "industry_domain": "E-commerce",
+        "startDate": { "year": 20, "month": "Apr" },
+        "endDate": { "year": 20, "month": "May" },
+        "description": "MERN Stack",
+        "link": ""
+      },
+      {
+        "name": "SpaceX Missions",
+        "industry_domain": "R&D - GraphQL App \n",
+        "startDate": { "year": 17, "month": "Aug" },
+        "endDate": { "year": 17, "month": "Dec" },
+        "description": "MERN Stack",
+        "link": ""
+      },
+      {
+        "name": "Portfolio Manager",
+        "industry_domain": "Social Media Marketing",
+        "startDate": { "year": 17, "month": "Aug" },
+        "endDate": { "year": 17, "month": "Dec" },
+        "description": "MERN Stack",
+        "link": ""
+      }
+    ]
   }
 }

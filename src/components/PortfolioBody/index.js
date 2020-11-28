@@ -3,8 +3,6 @@ import { ImportantLinks } from '../ImportantLinks';
 import { PortfolioBodyLeftCard } from '../WorkExperience';
 import { PortfolioBodyRightCard } from '../PortfolioBodyRightCard';
 import './styles.css';
-import CustomizedTimeline from './CustomizedTimeline';
-
 
 const PortfolioBody = () => {
   const height = window.innerHeight >= 785 ? '86vh' : '79vh';
@@ -22,7 +20,6 @@ const PortfolioBody = () => {
       </div>
       <div className="portfolioBody col-md-12 col-12 row">
         <PortfolioBodyLeftCard />
-        
         <PortfolioBodyRightCard />
       </div>
     </React.Fragment>
