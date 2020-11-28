@@ -40,7 +40,7 @@ export class Macbook extends React.Component {
 
     window.addEventListener('scroll', () => {
       const frameCount = 148;
-      const scrollTop = html.scrollTop + 250;
+      const scrollTop = html.scrollTop;
       const maxScrollTop = html.scrollHeight - window.innerHeight;
       const scrollFraction = scrollTop / maxScrollTop;
 
@@ -54,7 +54,6 @@ export class Macbook extends React.Component {
 
 
     return (
-      // <canvas id="hero-lightpass" />
       <canvas id="hero-lightpass" ref={(c) => this.context = c.getContext('2d')} height="770px" width="1158px" style={{ position: "fixed", top: '10%', zIndex: 10 }} />
     )
   }

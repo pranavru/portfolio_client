@@ -9,16 +9,16 @@ import PortfolioBody from "../PortfolioBody";
 import ProtfolioHeader from "../PortfolioHeader";
 import { Toolbar } from "@material-ui/core";
 import { NavigationDisplay } from "../NavigationDisplay";
-// import { KeyBoardUpArrow } from "../KeyBoardArrowButton";
 import Fab from "@material-ui/core/Fab";
-import { KeyboardArrowDownRounded, KeyboardArrowUpRounded } from "@material-ui/icons";
 import ParticlesBg from 'particles-bg';
+import { KeyBoardArrowButton } from '../KeyBoardArrowButton'
 
 const useStyles = makeStyles((theme) => ({
   root: {
     position: "fixed",
     bottom: theme.spacing(2),
-    right: theme.spacing(2)
+    right: theme.spacing(2),
+    zIndex: 10000000,
   }
 }));
 
@@ -84,19 +84,10 @@ export default function Navbar(props) {
         <PortfolioBody />
       </Box>
       <ScrollTop {...props}>
-        <Fab color="inherit" size="small" aria-label="scroll back to top" className="keyBoardArrowButton">
-          <KeyboardArrowUpRounded color="#FFCB9A" htmlColor="#116466" />
+        <Fab color="inherit" size="small" aria-label="scroll back to top">
+          <KeyBoardArrowButton upArrow={true} />
         </Fab>
       </ScrollTop>
     </React.Fragment>
   );
-}
-
-const KeyBoardUpArrow = (props) => {
-  return <Fab color="inherit" size="small" aria-label="scroll back to top" className="keyBoardArrowButton">
-    {/* {props.upArrow === true ? */}
-    {/* <KeyboardArrowUpRounded color="#FFCB9A" htmlColor="#116466" /> : */}
-    <KeyboardArrowDownRounded color="#FFCB9A" htmlColor="#116466" />
-    {/* } */}
-  </Fab>;
 }
