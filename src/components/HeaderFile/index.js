@@ -3,7 +3,7 @@ import './styles.css';
 
 export const HeaderFile = (props) => {
   return (
-    <div className="portfolioHeader" style={{ backgroundColor: props.bgColor, color: props.color }}>
+    <div className="portfolioHeader" style={props.stylesHeader}>
       {props.displayText}
     </div>
   );

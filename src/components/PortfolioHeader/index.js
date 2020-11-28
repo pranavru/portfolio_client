@@ -16,7 +16,12 @@ const ProtfolioHeader = (props) => {
       setColor('');
     }
   })
-  return <HeaderFile displayText={appHeader} bgColor={color} color={props.color} />
+  const stylesHeader = {
+    backgroundColor: color,
+    color: props.color,
+    borderBottom: color === "" ? "0px" : "0.5px solid #D9B08C"
+  }
+  return <HeaderFile displayText={appHeader} stylesHeader={stylesHeader} />
 };
 
 export default ProtfolioHeader;
