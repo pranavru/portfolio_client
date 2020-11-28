@@ -26,7 +26,8 @@ export const PortfolioBodyLeftCard = () => {
                         <span className="presentlyWorking"> PRESENT </span> :
                         <><span className="endDateMonth">{d.endDate.month}</span> <span className="endDateYear">{d.endDate.year}</span></>
                       }
-                    </span>  </p>
+                    </span>
+                  </p>
                 </p>
               </span>
               {w.detailsVisible ?

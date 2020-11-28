@@ -4,7 +4,7 @@ import { HeaderFile } from '../HeaderFile';
 import './styles.css';
 
 const ProtfolioHeader = (props) => {
-  const appHeader = <p>
+  const appHeader = <p style={{ marginBottom: "4px" }}>
     <span className="firstName">{userDetails.user.first_name} </span>
     <span className="lastName">{userDetails.user.last_name}</span>
   </p>;
@@ -19,7 +19,7 @@ const ProtfolioHeader = (props) => {
   const stylesHeader = {
     backgroundColor: color,
     color: props.color,
-    borderBottom: color === "" ? "0px" : "0.5px solid #D9B08C",
+    borderBottom: color === "" ? "0px" : "0.3px solid #D9B08C",
   }
   return <HeaderFile displayText={appHeader} stylesHeader={stylesHeader} />
 };

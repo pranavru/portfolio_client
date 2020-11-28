@@ -51,7 +51,7 @@ export default function CustomizedTimeline() {
               <p className={classes.paragraph}>{t.name}</p>
             </Typography>
           </TimelineOppositeContent>
-          <TimelineSeparator>
+          <TimelineSeparator >
             <TimelineDot variant="filled" TimelineDotClassKey="outlinedSecondary" className={classes.dotColor} />
             <TimelineConnector />
           </TimelineSeparator>

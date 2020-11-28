@@ -7,10 +7,50 @@
 
 .whiteBackground {
   position: absolute;
-  min-width:71%;
+  min-width: 71%;
   min-height: 54%;
   z-index: 10;
   top: 14.5%;
   left: 14.5%;
   background-color: whitesmoke;
+}
+
+.box {
+  padding: 1% 2%;
+  margin: 5px 0;
+}
+
+.box span {
+  /* background-color: rgba(255, 255, 255, 0.5); */
+  /* display: flex; */
+  padding: 5px;
+  border-radius: 3px;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 99%;
+  height: 300px;
+  top: 2.5%;
+  left: 0.5%;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 200;
+  cursor: pointer;
+}
+
+#overlay:hover {
+  display: block;
+}
+
+#text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }

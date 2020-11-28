@@ -3,7 +3,7 @@ import React from 'react';
 import { PortfolioBodyCardHeader } from '../PortfolioBodyCardHeader';
 import './styles.css';
 import * as user from '../../data.json';
-import CustomizedTimeline from './CustomizedTimeline';
+import CustomizedTimeline from '../CustomizedTimeline';
 
 export const PortfolioBodyRightCard = () => {
   console.log(user);
@@ -11,7 +11,7 @@ export const PortfolioBodyRightCard = () => {
     <Card>
       <PortfolioBodyCardHeader header="Projects Timeline" style={{ fontSize: '22px' }} />
     </Card>
-    <Card style={{ border: "1px solid #D9B08C" }} variant="outlined">
+    <Card style={{ border: "1px solid #D9B08C", marginTop: "1%", marginBottom: "0px" }} variant="outlined">
       <CustomizedTimeline />
     </Card>
   </div>
