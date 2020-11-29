@@ -23,25 +23,23 @@ export const ImportantLinks = () => {
     <p className="profileText">{u.professionalExperienceSummary}</p>
     <hr style={{ backgroundColor: '#2C3531', height: '0.75%', width: '50%' }} />
     <div className="linksDiv">
-      <Fab color="inherit" size="medium" aria-label="scroll back to top" className="linksButton" style={{ display: u.links.LinkedIn.visible ? "flex" : "none" }}>
-        <LinkedInIcon color="#2C3531" onClick={() => window.location.href = u.links.LinkedIn.link} />
+      <Fab color="inherit" size="medium" aria-label="scroll back to top" className="linksButton" style={{ display: u.links.LinkedIn.visible ? "flex" : "none" }} href={u.links.LinkedIn.link}>
+        <LinkedInIcon />
       </Fab>
-      <Fab color="inherit" size="medium" aria-label="scroll back to top" className="linksButton" style={{ display: u.links.GitHub.visible ? "flex" : "none" }}>
-        <GitHubIcon color="#2C3531" onClick={() => window.location.href = u.links.GitHub.link} />
+      <Fab color="inherit" size="medium" aria-label="scroll back to top" className="linksButton" style={{ display: u.links.GitHub.visible ? "flex" : "none" }} href={u.links.GitHub.link}>
+        <GitHubIcon />
       </Fab>
-      <Fab color="inherit" size="medium" aria-label="scroll back to top" className="linksButton">
-        <EmailRoundedIcon color="#2C3531"
-          onClick={() => window.location.href = u.email.home.preferred ?
-            `mailto:${u.email.home.details}` : u.email.work.preferred ? `mailto:${u.email.work.details}` : ``} style={{ display: u.email.isVisible ? "flex" : "none" }} />
+      <Fab color="inherit" size="medium" aria-label="scroll back to top" className="linksButton" href={u.email.home.preferred ? `mailto:${u.email.home.details}` : u.email.work.preferred ? `mailto:${u.email.work.details}` : ``}>
+        <EmailRoundedIcon style={{ display: u.email.isVisible ? "flex" : "none" }} />
       </Fab>
-      <Fab color="inherit" size="medium" aria-label="scroll back to top" className="linksButton" style={{ display: u.links.resume.visible ? "flex" : "none" }}>
-        <DescriptionIcon color="#2C3531" onClick={() => window.location.href = u.links.resume.link} />
+      <Fab color="inherit" size="medium" aria-label="scroll back to top" className="linksButton" style={{ display: u.links.resume.visible ? "flex" : "none" }} href={u.links.resume.link}>
+        <DescriptionIcon />
       </Fab>
-      <Fab color="inherit" size="medium" aria-label="scroll back to top" className="linksButton" style={{ display: u.links.medium.visible ? "flex" : "none" }}>
-        <TwitterIcon color="#2C3531" onClick={() => window.location.href = u.links.medium.link} />
+      <Fab color="inherit" size="medium" aria-label="scroll back to top" className="linksButton" style={{ display: u.links.medium.visible ? "flex" : "none" }} href={u.links.medium.link}>
+        <TwitterIcon />
       </Fab>
-      <Fab color="inherit" size="medium" aria-label="scroll back to top" className="linksButton" style={{ display: u.links.twitter.visible ? "flex" : "none" }}>
-        <TwitterIcon color="#2C3531" onClick={() => window.location.href = u.links.twitter.link} />
+      <Fab color="inherit" size="medium" aria-label="scroll back to top" className="linksButton" style={{ display: u.links.twitter.visible ? "flex" : "none" }} href={u.links.twitter.link}>
+        <TwitterIcon />
       </Fab>
     </div>
   </div>;

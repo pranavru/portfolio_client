@@ -12,7 +12,7 @@ import * as user from '../../data.json';
 
 const useStyles = makeStyles((theme) => ({
   paper: {
-    marginBottom: "0.5%"
+    marginBottom: "3%"
   },
   detail: {
     font: "12px lightItalic",
@@ -22,8 +22,8 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: '#D9B08C'
   },
   paragraph: {
-    margin: "4.9% 0px",
-    padding: "6% 3%",
+    margin: "4% 0px",
+    padding: "5% 3%",
     paddingLeft: '0%',
     font: "14px ZS_semibold",
     color: "#616466",
@@ -40,19 +40,19 @@ const useStyles = makeStyles((theme) => ({
 
 export default function CustomizedTimeline() {
   const classes = useStyles();
-  const timeline = user.default.user.timeline;
+  const timeline = user.default.user.projects;
   return (
     <Timeline align="left" className={classes.timeLineItem}>
-      {timeline.map(t =>
-        <TimelineItem >
+      {timeline.map((t, index) =>
+        <TimelineItem key={index}>
           <TimelineOppositeContent>
             <Typography variant="body1" color="textSecondary" className={classes.timeLineItem} >
-              <p className={classes.paper}>&nbsp;</p>
-              <p className={classes.paragraph}>{t.name}</p>
+              <span className={classes.paper}>&nbsp;</span>
+              <div className={classes.paragraph}>{t.name}</div>
             </Typography>
           </TimelineOppositeContent>
           <TimelineSeparator >
-            <TimelineDot variant="filled" TimelineDotClassKey="outlinedSecondary" className={classes.dotColor} />
+            <TimelineDot className={classes.dotColor} />
             <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
@@ -62,7 +62,7 @@ export default function CustomizedTimeline() {
         </TimelineItem>
       )}
       <TimelineItem className={classes.detail}>
-        <TimelineDot variant="filled" TimelineDotClassKey="outlinedSecondary" className={classes.dotColor} />
+        <TimelineDot className={classes.dotColor} />
         <TimelineContent></TimelineContent>
       </TimelineItem>
     </Timeline>
