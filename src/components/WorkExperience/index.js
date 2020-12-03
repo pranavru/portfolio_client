@@ -6,7 +6,7 @@ import './styles.css';
 
 export const PortfolioBodyLeftCard = () => {
   const user = u.default.user;
-  return <div className="col-md-8">
+  return <div className="col-md-8" id="WorkExp">
     <Card>
       <PortfolioBodyCardHeader header="Work Experience" style={{ fontSize: '22px' }} />
     </Card>
